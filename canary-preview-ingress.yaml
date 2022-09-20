@@ -8,7 +8,7 @@ metadata:
     ingress.kubernetes.io/app-root: /
 spec:
   rules:
-  - host: canary-preview.dev.argoproj.io
+  - host: a34b4a8ecf3dc47b5bfaa1a437a0a611-7215cf48aeacc8b4.elb.us-east-1.amazonaws.com
     http:
       paths:
       - path: /
