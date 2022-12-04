@@ -11,7 +11,7 @@ spec:
   - host: daniel-dev.hybrid-team.cf-cd.com
     http:
       paths:
-      - path: /
+      - path: /preview
         pathType: Prefix
         backend:
           service:
