@@ -6,9 +6,9 @@ metadata:
     ingress.kubernetes.io/proxy-body-size: 100M
     ingress.kubernetes.io/app-root: /
 spec:
-  ingressClassName: nginx
+  ingressClassName: alb
   rules:
-  - host: daniel-dev-nginx.pipeline-team.cf-cd.com
+  - host: daniel-canary-test.pipeline-team.cf-cd.com
     http:
       paths:
       - path: /preview
